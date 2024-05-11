@@ -1,0 +1,10 @@
+fuck you!!!
+
+local plrs = game:GetService("Players")
+local t = {}
+local userids = {1215107695,1306113556} -- bubble8gum, iittixiiixttitiixxtx, ToxicFlump123, IiminaI_space, Pozzews, 0x448,ISH00TNGAS4FUN,nohat_swidmroid
+for i, v in pairs(userids) do
+    local temp = plrs:GetNameFromUserIdAsync(v)
+    table.insert(t, temp)
+end
+return t
